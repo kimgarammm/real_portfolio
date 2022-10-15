@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "ChavieraRegular-d9PwZ";
+  src: url(../fonts/ChavieraRegular-d9PwZ.otf) format("truetype");
+}
+@font-face {
+  font-family: "CREALEN";
+  src: url(../fonts/CREALEN.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "MonoplexKR-ExtraLight";
+  src: url(../fonts/MonoplexKR-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chosunilbo_myungjo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

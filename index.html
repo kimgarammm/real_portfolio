@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio_final</title>
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/@media.css">
+</head>
+<body>
+    <header id="header">
+        <div class="left">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="1"
+              y="1"
+              width="20"
+              height="20"
+              rx="5"
+              stroke="white"
+              stroke-width="1"
+            />
+            <path
+              d="M5 12H7L9 15L13 8L15 12H17"
+              stroke="white"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+  
+          <em class="scroll">0</em>
+          <div class="txt"><p>Scroll</p></div>
+        </div>
+        <div class="name"><p>KIM GARAM</p></div>
+        <div class="menu">
+          <div class="border">
+            <p>MENU</p>
+            <div class="ham"><span></span></div>
+          </div>
+        </div>
+      </header>
+      <header id="nav">
+        <div class="go">
+          <div class="home"><a href="#main1"></a></div>
+          <div class="about"><a href="#main1.section2">About</a></div>
+          <div class="site"><a href="#main2">works</a></div>
+          <div class="script"><a href="#main4">Script</a></div>
+          <div class="contact"><a href="">Contact</a></div>
+        
+        <div class="right">
+          <svg
+            width="16"
+            height="9"
+            viewBox="0 0 16 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8L8 1L15 8"
+              stroke="#fff"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </header>
+
+
+    <section id="main1">
+     <div class="section1">
+        <div class="content">
+            <div class="logo"></div>
+            <div class="title">
+                <p class="t1">DEVELOPER</p>
+                 <p class="t2">PORTFOLIO</p>
+        </div>
+        </div>
+     </div>
+     <div class="section2"></div>
+    </section>
+    <!--main1-->
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script>
+      var s = skrollr.init({
+        smoothScrolling: true,
+      });
+
+      function scroll() {
+        let scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        document.querySelector(".scroll").innerHTML = parseInt(scrollTop);
+        requestAnimationFrame(scroll);
+      }
+      scroll();
+    </script>
+</body>
+</html>
