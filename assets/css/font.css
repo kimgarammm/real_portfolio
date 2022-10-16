@@ -14,15 +14,22 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "PanacheITCStd-Book";
+  src: url(../fonts/PanacheITCStd-Book.otf) format("truetype");
+  font-style: normal;
+}
+@font-face {
   font-family: "Chosunilbo_myungjo";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'GowunDodum-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-family: "GowunDodum-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
