@@ -1,3 +1,21 @@
+@media all and (max-width: 1400px) {
+  #main1 .section2 .sec2 .right .img1 {
+    width: 33vw;
+    height: 27vw;
+  }
+  #main1 .section2 .sec2 .right .img2 {
+    width: 24vw;
+    height: 17vw;
+    top: 35%;
+  }
+  #main1 .section2 .sec2 .right .img3 {
+    width: 24vw;
+    height: 27vw;
+  }
+  #main1 .section2 .sec2 .left .de {
+    bottom: 40%;
+  }
+}
 @media all and (max-width: 1024px) {
   /*태블릿 가로*/
   #main1 .section1 .contents .logo {
@@ -11,6 +29,37 @@
   #main1 .section1 .contents em {
     font-size: 90px;
     line-height: 0.8;
+  }
+  #main1 .section2 .sec2 .left h2 {
+    top: 60%;
+    left: 26%;
+    text-align: center;
+    font-size: 5vw;
+  }
+  #main1 .section2 .sec2 .left .de {
+    top: 70%;
+    left: 26%;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 2.3vw;
+  }
+  #main1 .section2 .sec2 .right .img1 {
+    top: 10%;
+    left: 33%;
+    width: 35vw;
+    height: 28vw;
+  }
+  #main1 .section2 .sec2 .right .img2 {
+    top: 30%;
+    left: 26%;
+    width: 21vw;
+    height: 17vw;
+  }
+  #main1 .section2 .sec2 .right .img3 {
+    left: 48%;
+    top: 25%;
+    width: 24vw;
+    height: 27vw;
   }
 }
 @media all and (max-width: 767px) {

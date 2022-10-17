@@ -90,7 +90,7 @@
 #nav {
   position: fixed;
   left: 0;
-  top: 85%;
+  bottom: 5%;
   background: rgba(0, 0, 0, 0.359);
   backdrop-filter: blur(10px);
   z-index: 100000;
@@ -121,7 +121,7 @@
 #main1 {
   position: relative;
   width: 100%;
-  height: 300vh;
+  height: 200vh;
   background-color: red;
 }
 
@@ -171,12 +171,85 @@
   /* text-transform: uppercase; */
   font-family: "ChavieraRegular-d9PwZ";
 }
+/*main1 section1*/
 
 #main1 .section2 {
   width: 100%;
-  height: 200vh;
+  height: 100vh;
   position: relative;
   background-color: #113971;
 }
+#main1 .section2 .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+#main1 .section2 .sec2 .left {
+  width: 40%;
+  height: 80vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main1 .section2 .sec2 .left h2 {
+  position: absolute;
+  top: 10%;
+  letter-spacing: 2px;
+  line-height: 4.6vw;
+  font-size: 4vw;
+  font-family: "ChavieraRegular-d9PwZ";
+  color: #fff;
+}
+#main1 .section2 .sec2 .left .de {
+  position: absolute;
+  font-family: "GowunDodum-Regular";
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.3vw;
+  color: #fff;
+  bottom: 30%;
+}
+#main1 .section2 .sec2 .right {
+  width: 40%;
+  height: 80vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main1 .section2 .sec2 .right .img1 {
+  background-image: url(https://images.unsplash.com/photo-1518022525094-218670c9b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbG9yZnVsJTIwc2VhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 30vw;
+  height: 25vw;
+  top: 10%;
+  left: 55%;
+}
+#main1 .section2 .sec2 .right .img2 {
+  background-image: url(/assets/img/cat1.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  position: absolute;
+  width: 19vw;
+  height: 15vw;
+  top: 38%;
+  left: 50%;
+}
+#main1 .section2 .sec2 .right .img3 {
+  background-image: url(/assets/img/garam2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 22vw;
+  height: 25vw;
+  top: 28%;
+  left: 68%;
+}
 
-/*main1*/
+/*main1 section2*/
+#main2 {
+  width: 100%;
+  height: 100vh;
+}
