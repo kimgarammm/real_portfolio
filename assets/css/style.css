@@ -85,6 +85,7 @@
   left: 0;
   top: 4px;
 }
+/*상단 헤더*/
 
 #nav {
   position: fixed;
@@ -115,6 +116,7 @@
   font-weight: 100;
   text-transform: uppercase;
 }
+/*하단 네비게이션*/
 
 #main1 {
   position: relative;
@@ -131,7 +133,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
 }
 #main1 .section1 .contents {
@@ -169,3 +171,12 @@
   /* text-transform: uppercase; */
   font-family: "ChavieraRegular-d9PwZ";
 }
+
+#main1 .section2 {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  background-color: #113971;
+}
+
+/*main1*/
