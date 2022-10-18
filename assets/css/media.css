@@ -133,4 +133,16 @@
     font-size: 55px;
     line-height: 0.5;
   }
+  #main1 .section2 .sec2 .left h2 {
+    top: 48%;
+    left: 22%;
+    font-size: 7vw;
+    line-height: 7.5vw;
+  }
+  #main1 .section2 .sec2 .left .de {
+    top: 58%;
+    left: 13%;
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+  }
 }
