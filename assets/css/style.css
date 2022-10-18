@@ -193,19 +193,19 @@
 }
 #main1 .section2 .sec2 .left h2 {
   position: absolute;
-  top: 10%;
+  top: 15%;
   letter-spacing: 2px;
-  line-height: 4.6vw;
-  font-size: 4vw;
+  line-height: 5vw;
+  font-size: 4.8vw;
   font-family: "ChavieraRegular-d9PwZ";
   color: #fff;
 }
 #main1 .section2 .sec2 .left .de {
   position: absolute;
   font-family: "GowunDodum-Regular";
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   letter-spacing: 0.1vw;
-  line-height: 1.3vw;
+  line-height: 2vw;
   color: #fff;
   bottom: 30%;
 }

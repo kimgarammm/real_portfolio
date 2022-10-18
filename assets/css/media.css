@@ -12,8 +12,15 @@
     width: 24vw;
     height: 27vw;
   }
+  #main1 .section2 .sec2 .left h2 {
+    line-height: 5.4vw;
+    font-size: 5.2vw;
+  }
+
   #main1 .section2 .sec2 .left .de {
     bottom: 40%;
+    font-size: 1.7vw;
+    line-height: 2.1vw;
   }
 }
 @media all and (max-width: 1024px) {
@@ -31,8 +38,8 @@
     line-height: 0.8;
   }
   #main1 .section2 .sec2 .left h2 {
-    top: 60%;
-    left: 26%;
+    top: 58%;
+    left: 30%;
     text-align: center;
     font-size: 5vw;
   }
@@ -41,11 +48,11 @@
     left: 26%;
     text-align: center;
     font-size: 2vw;
-    line-height: 2.3vw;
+    line-height: 2.5vw;
   }
   #main1 .section2 .sec2 .right .img1 {
-    top: 10%;
-    left: 33%;
+    top: 13%;
+    left: 31%;
     width: 35vw;
     height: 28vw;
   }
@@ -60,6 +67,14 @@
     top: 25%;
     width: 24vw;
     height: 27vw;
+  }
+}
+@media all and (max-width: 900px) {
+  #main1 .section2 .sec2 .right .img2 {
+    top: 30%;
+  }
+  #main1 .section2 .sec2 .right .img3 {
+    top: 25%;
   }
 }
 @media all and (max-width: 767px) {
@@ -78,6 +93,30 @@
   }
   #nav {
     display: none;
+  }
+  #main1 .section2 .sec2 .left h2 {
+    top: 48%;
+    left: 25%;
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+  #main1 .section2 .sec2 .left .de {
+    top: 58%;
+    left: 20%;
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+  }
+  #main1 .section2 .sec2 .right .img1 {
+    top: 10%;
+    left: 31%;
+  }
+  #main1 .section2 .sec2 .right .img2 {
+    top: 23%;
+    left: 26%;
+  }
+  #main1 .section2 .sec2 .right .img3 {
+    left: 48%;
+    top: 20%;
   }
 }
 @media all and (max-width: 480px) {
