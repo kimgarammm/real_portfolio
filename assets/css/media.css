@@ -106,6 +106,20 @@
     line-height: 5vw;
     text-align: center;
   }
+  #main3 .sl .left {
+    font-size: 4.7vw;
+    color: #e9ecee;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 1px;
+  }
+  #main3 .sl .left .txt2 {
+    left: 32%;
+  }
+  #main3 .sl .right .logo {
+    width: 16vw;
+    height: 16vw;
+    top: 40%;
+  }
 }
 @media all and (max-width: 900px) {
   #main1 .section2 .sec2 .right .img2 {
@@ -181,6 +195,29 @@
     left: 23%;
     font-size: 6vw;
     line-height: 6.3vw;
+  }
+  #main3 .sl .left {
+    border: none;
+    font-size: 7vw;
+    color: #e9ecee;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 1px;
+  }
+  #main3 .sl .left .txt1 {
+    left: 55%;
+  }
+  #main3 .sl .left .txt2 {
+    left: -15%;
+    top: 35%;
+  }
+  #main3 .sl .left .txt3 {
+    left: 30%;
+  }
+  #main3 .sl .right .logo {
+    width: 25vw;
+    height: 25vw;
+    top: 35%;
+    left: 35%;
   }
 }
 @media all and (max-width: 480px) {
