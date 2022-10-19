@@ -95,7 +95,7 @@
   backdrop-filter: blur(10px);
   z-index: 100000;
   width: 80%;
-  height: 80px;
+  height: 70px;
   margin-left: 10%;
   margin-top: 2%;
   border-radius: 70px;
@@ -249,7 +249,82 @@
 }
 
 /*main1 section2*/
+
 #main2 {
   width: 100%;
   height: 100vh;
+  background-color: #113971;
+  position: relative;
 }
+#main2 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+}
+#main2 .container .left {
+  width: 40%;
+  height: 90vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main2 .container .left .img1 {
+  background-image: url(https://images.unsplash.com/photo-1498081959737-f3ba1af08103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 18vw;
+  height: 25vw;
+  top: 20%;
+}
+#main2 .container .left .img2 {
+  background-image: url(../img/garam30.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 18vw;
+  height: 25vw;
+  top: 20%;
+  left: 23%;
+}
+#main2 .container .left .img3 {
+  background-image: url(https://cdn.pixabay.com/photo/2013/01/27/18/41/flowers-76358__480.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 12vw;
+  height: 15vw;
+  top: 45%;
+  left: 33%;
+}
+#main2 .container .right {
+  width: 40%;
+  height: 90vh;
+}
+#main2 .container .right .de {
+  position: absolute;
+  text-align: right;
+  font-size: 1.4vw;
+  letter-spacing: 0.1vw;
+  line-height: 2vw;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  top: 20%;
+  left: 61%;
+}
+#main2 .container .right h2 {
+  position: absolute;
+  text-align: right;
+  font-size: 3.8vw;
+  letter-spacing: 1px;
+  line-height: 4.6vw;
+  font-family: "ChavieraRegular-d9PwZ";
+  color: white;
+  top: 50%;
+  left: 58%;
+}
+
+/*main2*/

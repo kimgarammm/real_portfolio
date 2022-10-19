@@ -22,6 +22,9 @@
     font-size: 1.7vw;
     line-height: 2.1vw;
   }
+  #main2 .container .left .img3 {
+    top: 40%;
+  }
 }
 @media all and (max-width: 1024px) {
   /*태블릿 가로*/
@@ -68,6 +71,41 @@
     width: 24vw;
     height: 27vw;
   }
+  #main2 .container .left {
+    border: none;
+  }
+  #main2 .container .left .img1 {
+    top: 10%;
+    left: 23%;
+    width: 25vw;
+    height: 32vw;
+  }
+  #main2 .container .left .img2 {
+    top: 10%;
+    left: 38%;
+    width: 25vw;
+    height: 32vw;
+  }
+  #main2 .container .left .img3 {
+    width: 18vw;
+    height: 20vw;
+    top: 25%;
+    left: 55%;
+  }
+  #main2 .container .right .de {
+    top: 63%;
+    left: 20%;
+    font-size: 2.6vw;
+    line-height: 2.9vw;
+    text-align: center;
+  }
+  #main2 .container .right h2 {
+    top: 45%;
+    left: 27%;
+    font-size: 4.7vw;
+    line-height: 5vw;
+    text-align: center;
+  }
 }
 @media all and (max-width: 900px) {
   #main1 .section2 .sec2 .right .img2 {
@@ -101,10 +139,10 @@
     line-height: 6.5vw;
   }
   #main1 .section2 .sec2 .left .de {
-    top: 58%;
-    left: 20%;
-    font-size: 2.5vw;
-    line-height: 2.8vw;
+    top: 59%;
+    left: 16%;
+    font-size: 2.9vw;
+    line-height: 3.1vw;
   }
   #main1 .section2 .sec2 .right .img1 {
     top: 10%;
@@ -117,6 +155,32 @@
   #main1 .section2 .sec2 .right .img3 {
     left: 48%;
     top: 20%;
+  }
+  #main2 .container .left .img1 {
+    top: 10%;
+    left: 23%;
+    width: 28vw;
+    height: 37vw;
+  }
+  #main2 .container .left .img2 {
+    width: 28vw;
+    height: 37vw;
+  }
+  #main2 .container .left .img3 {
+    width: 24vw;
+    height: 26vw;
+  }
+  #main2 .container .right .de {
+    top: 63%;
+    left: 20%;
+    font-size: 2.9vw;
+    line-height: 3.1vw;
+  }
+  #main2 .container .right h2 {
+    top: 45%;
+    left: 23%;
+    font-size: 6vw;
+    line-height: 6.3vw;
   }
 }
 @media all and (max-width: 480px) {
@@ -144,5 +208,20 @@
     left: 13%;
     font-size: 3.5vw;
     line-height: 3.8vw;
+  }
+  #main2 .container .left .img3 {
+    top: 20%;
+  }
+  #main2 .container .right .de {
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+    top: 53%;
+    left: 14%;
+  }
+  #main2 .container .right h2 {
+    font-size: 7vw;
+    line-height: 7.5vw;
+    top: 39%;
+    left: 18%;
   }
 }
