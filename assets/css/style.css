@@ -350,6 +350,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(5px);
 }
 #main3 .sl .container {
   position: relative;
@@ -405,7 +407,7 @@
 /*main3*/
 #main4 {
   width: 100%;
-  height: 320vh;
+  height: 350vh;
   background-color: #4d377b;
   position: relative;
   display: flex;
@@ -414,16 +416,16 @@
 }
 
 #main4 .container {
-  margin-top: 5%;
+  margin-top: 3%;
   position: relative;
   width: 90%;
-  height: 320vh;
+  height: 350vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
 }
 #main4 .container h2 {
   position: absolute;
@@ -433,9 +435,9 @@
   letter-spacing: 1px;
 }
 #main4 .container .de {
-  font-size: 1.3vw;
+  font-size: 2.5rem;
   letter-spacing: 0.1vw;
-  line-height: 1.4vw;
+  line-height: 3.2rem;
   font-family: "GowunDodum-Regular";
   color: white;
 }
@@ -446,22 +448,67 @@
   width: 33vw;
   height: 25vw;
 }
-#main4 .container .go {
-  position: absolute;
-  font-size: 1.3vw;
-  letter-spacing: 0.1vw;
-  line-height: 1.4vw;
+#main4 .container .btn {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+#main4 .container .site_btn {
+  font-size: 25px;
   font-family: "GowunDodum-Regular";
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 2px 25px;
+  background: linear-gradient(
+    40deg,
+    #fff 50%,
+    rgb(255, 255, 255) 50%,
+    transparent 50%
+  );
+  cursor: pointer;
+  color: #fff;
+}
+#main4 .container .site_btn,
+#main4 .container .site_btn #main4 .container .site_btn::after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s;
+}
+#main4 .container .site_btn:hover {
+  color: #4d377b;
+  background-position: 0;
+}
+#main4 .container .view_btn {
+  font-size: 25px;
+  font-family: "GowunDodum-Regular";
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 2px 25px;
+  background: linear-gradient(
+    40deg,
+    #fff 50%,
+    rgb(255, 255, 255) 50%,
+    transparent 50%
+  );
+  cursor: pointer;
   color: white;
 }
-#main4 .container .go a {
-  border: 1px solid white;
-  padding-left: 10px;
-  padding-right: 10px;
+#main4 .container .view_btn,
+#main4 .container .view_btn #main4 .container .view_btn::after {
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s;
 }
+#main4 .container .view_btn:hover {
+  color: #4d377b;
+  background-position: 0;
+  box-shadow: none;
+}
+
 #main4 .container .title {
   width: 100%;
-  height: 5%;
+  height: 10%;
   font-size: 3vw;
   color: white;
   font-family: "CREALEN";
@@ -473,12 +520,13 @@
 }
 #main4 .container .site1 {
   width: 100%;
-  height: 19%;
+  height: 18%;
   position: relative;
   display: flex;
 }
 #main4 .container .site1 .left {
   width: 55%;
+
   position: relative;
   display: flex;
   align-items: center;
@@ -491,11 +539,11 @@
 #main4 .container .site1 .left .img {
   top: 12%;
   left: 20%;
-  background-image: url(https://c.wallhere.com/photos/ae/7c/Cartoon_Network_car-2084685.jpg!d);
   background-position: top left;
   transform: rotate(-10deg);
   box-shadow: 15px 15px white;
 }
+
 #main4 .container .site1 .right {
   width: 45%;
   position: relative;
@@ -503,18 +551,29 @@
   flex-direction: column;
 }
 #main4 .container .site1 .right .de {
-  position: absolute;
-  top: 30%;
-  left: 0;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding-top: 25%;
 }
-#main4 .container .site1 .right .go {
-  top: 45%;
-  left: 0;
+#main4 .container .site1 .right .btn .view_btn {
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+
+#main4 .container .site1 .right .btn .site_btn {
+  margin-right: 30px;
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+#main4 .container .site1 .right .btn .view_btn:hover {
+  box-shadow: none;
+}
+#main4 .container .site1 .right .btn .site_btn:hover {
+  box-shadow: none;
 }
 
 #main4 .container .site2 {
   width: 100%;
-  height: 19%;
+  height: 18%;
   position: relative;
   display: flex;
 }
@@ -525,21 +584,30 @@
   flex-direction: column;
 }
 #main4 .container .site2 .left .de {
-  position: absolute;
-  right: 0;
-  top: 30%;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding-top: 25%;
   text-align: right;
 }
-#main4 .container .site2 .left .go {
-  right: 0;
-  top: 40%;
-  margin-top: 5%;
+
+#main4 .container .site2 .left .btn {
+  justify-content: flex-end;
 }
-#main4 .container .site2 .left .go a {
-  border: 1px solid white;
-  padding-left: 10px;
-  padding-right: 10px;
+#main4 .container .site2 .left .btn .site_btn {
+  box-shadow: -5px 5px 0px 0px #fff;
 }
+#main4 .container .site2 .left .btn .view_btn {
+  margin-left: 30px;
+  box-shadow: -5px 5px 0px 0px #fff;
+}
+#main4 .container .site2 .left .btn .view_btn:hover {
+  box-shadow: none;
+}
+#main4 .container .site2 .left .btn .site_btn:hover {
+  box-shadow: none;
+}
+
 #main4 .container .site2 .right {
   width: 55%;
   position: relative;
@@ -554,7 +622,7 @@
 #main4 .container .site2 .right .img {
   top: 12%;
   left: 10%;
-  background-image: url(https://c.wallhere.com/photos/92/2c/Cartoon_Network_car-2084705.jpg!d);
+
   background-position: top left;
   transform: rotate(10deg);
   box-shadow: -15px 15px white;
@@ -562,7 +630,7 @@
 
 #main4 .container .site3 {
   width: 100%;
-  height: 19%;
+  height: 18%;
   position: relative;
   display: flex;
 }
@@ -580,7 +648,7 @@
 #main4 .container .site3 .left .img {
   top: 12%;
   left: 20%;
-  background-image: url(https://c.wallhere.com/photos/82/5a/digital_art_Liuying_JP_landscape-2071335.jpg!d);
+
   background-position: top left;
   transform: rotate(-10deg);
   box-shadow: 15px 15px white;
@@ -592,18 +660,28 @@
   flex-direction: column;
 }
 #main4 .container .site3 .right .de {
-  position: absolute;
-  top: 30%;
-  left: 0;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding-top: 25%;
 }
-#main4 .container .site3 .right .go {
-  top: 45%;
-  left: 0;
+#main4 .container .site3 .right .btn .site_btn {
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+#main4 .container .site3 .right .btn .view_btn {
+  margin-left: 30px;
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+#main4 .container .site3 .right .btn .view_btn:hover {
+  box-shadow: none;
+}
+#main4 .container .site3 .right .btn .site_btn:hover {
+  box-shadow: none;
 }
 
 #main4 .container .site4 {
   width: 100%;
-  height: 19%;
+  height: 18%;
   position: relative;
   display: flex;
 }
@@ -614,15 +692,30 @@
   flex-direction: column;
 }
 #main4 .container .site4 .left .de {
-  position: absolute;
-  right: 0;
-  top: 30%;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding-top: 25%;
   text-align: right;
 }
-#main4 .container .site4 .left .go {
-  right: 0;
-  top: 40%;
-  margin-top: 5%;
+
+#main4 .container .site4 .left .btn {
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+#main4 .container .site4 .left .btn .site_btn {
+  box-shadow: -5px 5px 0px 0px #fff;
+}
+#main4 .container .site4 .left .btn .view_btn {
+  margin-left: 30px;
+
+  box-shadow: -5px 5px 0px 0px #fff;
+}
+#main4 .container .site4 .left .btn .view_btn:hover {
+  box-shadow: none;
+}
+#main4 .container .site4 .left .btn .site_btn:hover {
+  box-shadow: none;
 }
 
 #main4 .container .site4 .right {
@@ -639,14 +732,13 @@
 #main4 .container .site4 .right .img {
   top: 12%;
   left: 10%;
-  background-image: url(https://c.wallhere.com/photos/3a/2c/artwork_nature_landscape_winter_snow_bears_house-2064041.jpg!d);
   background-position: top left;
   transform: rotate(10deg);
   box-shadow: -15px 15px white;
 }
 #main4 .container .site5 {
   width: 100%;
-  height: 19%;
+  height: 18%;
   position: relative;
   display: flex;
 }
@@ -664,7 +756,7 @@
 #main4 .container .site5 .left .img {
   top: 12%;
   left: 20%;
-  background-image: url(https://c.wallhere.com/photos/e7/88/Cartoon_Network_car-2084697.jpg!d);
+
   background-position: top left;
   transform: rotate(-10deg);
   box-shadow: 15px 15px white;
@@ -676,13 +768,112 @@
   flex-direction: column;
 }
 #main4 .container .site5 .right .de {
-  position: absolute;
-  top: 30%;
-  left: 0;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  padding-top: 25%;
 }
-#main4 .container .site5 .right .go {
-  top: 45%;
-  left: 0;
+#main4 .container .site5 .right .btn {
+  margin-top: 15px;
+}
+#main4 .container .site5 .right .btn .site_btn {
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+#main4 .container .site5 .right .btn .view_btn {
+  margin-left: 30px;
+  box-shadow: 5px 5px 0px 0px #fff;
+}
+#main4 .container .site5 .right .btn .view_btn:hover {
+  box-shadow: none;
+}
+#main4 .container .site5 .right .btn .site_btn:hover {
+  box-shadow: none;
 }
 
 /*main4*/
+#main5 {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+}
+#main5 .img {
+  background-image: url(/assets/img/main4-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+#main5 .sl {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+#main5 .sl .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 70vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main5 .sl .left {
+  position: relative;
+  width: 50%;
+  height: 55vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main5 .sl .left h1 {
+  position: absolute;
+  top: -15%;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+}
+#main5 .sl .left .logo {
+  position: absolute;
+  background-image: url(/assets/img/logo.png);
+  background-repeat: repeat;
+  background-position: bottom center;
+  background-size: cover;
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 18%;
+  left: 13%;
+  animation: rotate_image 6s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#main5 .sl .right {
+  position: relative;
+  width: 50%;
+  height: 55vh;
+}
+#main5 .sl .right p {
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+/*main5*/

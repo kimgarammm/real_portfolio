@@ -1,3 +1,9 @@
+@media all and (max-width: 1484px) {
+  #main4 .container .de {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
 @media all and (max-width: 1400px) {
   #main1 .section2 .sec2 .right .img1 {
     width: 33vw;
@@ -44,6 +50,49 @@
   }
   #main4 .container .site4 .right h2 {
     left: 77%;
+  }
+  #main4 .container .site1 .right .de {
+    height: 40%;
+  }
+  #main4 .container .site2 .left .de {
+    height: 40%;
+  }
+  #main4 .container .site3 .right .de {
+    height: 40%;
+  }
+  #main4 .container .site4 .left .de {
+    height: 40%;
+  }
+  #main4 .container .site5 .right .de {
+    height: 40%;
+  }
+}
+
+@media all and (max-width: 1177px) {
+  #main4 .container .de {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  #main4 .container .site1 .right .de {
+    height: 35%;
+  }
+  #main4 .container .site2 .left .de {
+    height: 35%;
+  }
+  #main4 .container .site3 .right .de {
+    height: 35%;
+  }
+  #main4 .container .site4 .left .de {
+    height: 35%;
+  }
+  #main4 .container .site5 .right .de {
+    height: 35%;
+  }
+}
+@media all and (max-width: 1060px) {
+  #main4 .container .de {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
   }
 }
 @media all and (max-width: 1024px) {
@@ -140,6 +189,25 @@
     height: 16vw;
     top: 40%;
   }
+  #main4 .container {
+    margin-top: 0%;
+    padding-bottom: 10%;
+  }
+  #main4 .container .title {
+    height: 5%;
+  }
+  #main4 .container .site1 {
+    height: 19%;
+  }
+  #main4 .container .site2 {
+    height: 19%;
+  }
+  #main4 .container .site2 {
+    height: 19%;
+  }
+  #main4 .container .site2 {
+    height: 19%;
+  }
   #main4 .container .img {
     width: 42vw;
     height: 34vw;
@@ -148,14 +216,11 @@
     font-size: 5vw;
   }
   #main4 .container .de {
-    font-size: 2.2vw;
-    line-height: 2.7vw;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
     text-align: center;
   }
-  #main4 .container .go {
-    font-size: 2.2vw;
-    line-height: 2.7vw;
-  }
+
   #main4 .container .site1 {
     flex-direction: column;
   }
@@ -165,8 +230,8 @@
     height: 50%;
   }
   #main4 .container .site1 .left h2 {
-    top: 50%;
-    left: 5%;
+    top: 60%;
+    left: 7%;
   }
   #main4 .container .site1 .left .img {
     top: 12%;
@@ -177,13 +242,13 @@
     height: 50%;
   }
   #main4 .container .site1 .right .de {
-    top: 55%;
-    left: 20%;
+    padding-top: 15%;
   }
-  #main4 .container .site1 .right .go {
-    top: 80%;
-    left: 40%;
+  #main4 .container .site1 .right .btn {
+    justify-content: center;
+    margin-top: 10%;
   }
+
   #main4 .container .site2 {
     flex-direction: column-reverse;
   }
@@ -192,15 +257,13 @@
     height: 50%;
   }
   #main4 .container .site2 .left .de {
-    left: 0;
-    top: 55%;
+    padding-top: 15%;
     text-align: center;
   }
-  #main4 .container .site2 .left .go {
-    left: 40%;
-    top: 65%;
+  #main4 .container .site2 .left .btn {
+    justify-content: center;
+    margin-top: 10%;
   }
-
   #main4 .container .site2 .right {
     width: 100%;
     height: 50%;
@@ -234,15 +297,15 @@
     height: 50%;
   }
   #main4 .container .site3 .right .de {
-    top: 55%;
-    left: 20%;
+    padding-top: 15%;
   }
-  #main4 .container .site3 .right .go {
-    top: 80%;
-    left: 40%;
-  }
+
   #main4 .container .site4 {
     flex-direction: column-reverse;
+  }
+  #main4 .container .site3 .right .btn {
+    justify-content: center;
+    margin-top: 10%;
   }
   #main4 .container .site4 .left {
     width: 100%;
@@ -250,12 +313,11 @@
   }
   #main4 .container .site4 .left .de {
     text-align: center;
-    left: 0;
-    top: 55%;
+    padding-top: 15%;
   }
-  #main4 .container .site4 .left .go {
-    left: 40%;
-    top: 75%;
+  #main4 .container .site4 .left .btn {
+    margin-top: 15%;
+    justify-content: center;
   }
 
   #main4 .container .site4 .right {
@@ -279,23 +341,22 @@
   }
   #main4 .container .site5 .left h2 {
     top: 40%;
-    left: 11%;
+    left: 16%;
   }
   #main4 .container .site5 .left .img {
     top: 15%;
-    left: 20%;
+    left: 25%;
   }
   #main4 .container .site5 .right {
     width: 100%;
     height: 50%;
   }
   #main4 .container .site5 .right .de {
-    top: 55%;
-    left: 15%;
+    padding-top: 15%;
   }
-  #main4 .container .site5 .right .go {
-    top: 90%;
-    left: 40%;
+  #main4 .container .site5 .right .btn {
+    justify-content: center;
+    margin-top: 15%;
   }
 }
 
@@ -306,49 +367,8 @@
   #main1 .section2 .sec2 .right .img3 {
     top: 25%;
   }
-  #main4 .container .site1 .right .de {
-    top: 35%;
-    left: 20%;
-  }
-  #main4 .container .site1 .right .go {
-    top: 60%;
-    left: 40%;
-  }
-  #main4 .container .site2 .left .de {
-    left: 0;
-    top: 35%;
-    text-align: center;
-  }
-  #main4 .container .site2 .left .go {
-    left: 40%;
-    top: 45%;
-  }
-  #main4 .container .site3 .right .de {
-    top: 35%;
-    left: 20%;
-  }
-  #main4 .container .site3 .right .go {
-    top: 60%;
-    left: 40%;
-  }
-  #main4 .container .site4 .left .de {
-    text-align: center;
-    left: 0;
-    top: 35%;
-  }
-  #main4 .container .site4 .left .go {
-    left: 40%;
-    top: 55%;
-  }
-  #main4 .container .site5 .right .de {
-    top: 35%;
-    left: 15%;
-  }
-  #main4 .container .site5 .right .go {
-    top: 70%;
-    left: 40%;
-  }
 }
+
 @media all and (max-width: 767px) {
   /*모바일 가로, 태블릿*/
   #main1 .section1 .contents .logo {
@@ -443,8 +463,99 @@
     font-size: 4vw;
   }
   #main4 .container .de {
-    font-size: 2.6vw;
-    line-height: 3.1vw;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
+  }
+
+  #main5 .sl .left {
+    border: none;
+  }
+  #main5 .sl .left .logo {
+    width: 40vw;
+    height: 40vw;
+    top: 20%;
+    left: 50%;
+  }
+  #main5 .sl .left h1 {
+    font-size: 7vw;
+  }
+  #main5 .sl .right p {
+    font-size: 6vw;
+  }
+}
+@media all and (max-width: 590px) {
+  #main4 .container .de {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+}
+@media all and (max-width: 580px) {
+  #main4 .container .site1 .left h2 {
+    top: 45%;
+    left: 7%;
+  }
+
+  #main4 .container .site2 .right h2 {
+    top: 40%;
+    left: 65%;
+  }
+  #main4 .container .site3 .left h2 {
+    top: 30%;
+    left: 16%;
+  }
+  #main4 .container .site4 .right h2 {
+    top: 30%;
+    left: 75%;
+  }
+  #main4 .container .site5 .left h2 {
+    top: 30%;
+    left: 16%;
+  }
+  #main4 .container .site1 .right .de {
+    padding-top: 0;
+  }
+  #main4 .container .site1 .right .btn {
+    margin-top: -5%;
+  }
+  #main4 .container .site2 .left .de {
+    padding-top: 0;
+  }
+  #main4 .container .site2 .left .btn {
+    margin-top: -5%;
+  }
+  #main4 .container .site3 .right .de {
+    padding-top: 0;
+  }
+  #main4 .container .site3 .right .btn {
+    margin-top: -5%;
+  }
+  #main4 .container .site4 .left .de {
+    padding-top: 0;
+  }
+  #main4 .container .site4 .left .btn {
+    margin-top: 0%;
+  }
+  #main4 .container .site5 .right .de {
+    padding-top: 0;
+  }
+  #main4 .container .site5 .right .btn {
+    margin-top: 0%;
+  }
+  #main4 .container .view_btn {
+    font-size: 20px;
+    padding: 0.5px 20px;
+  }
+  #main4 .container .site_btn {
+    font-size: 20px;
+    padding: 0.5px 20px;
+  }
+}
+@media all and (max-width: 501px) {
+  #main4 .container .de {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
     text-align: center;
   }
 }
@@ -500,71 +611,32 @@
     font-size: 6vw;
   }
   #main4 .container .de {
-    font-size: 3.5vw;
-    line-height: 4.2vw;
-  }
-  #main4 .container .go {
-    font-size: 3.5vw;
-    line-height: 3.9vw;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: center;
   }
   #main4 .container .site1 .left h2 {
-    top: 50%;
+    top: 40%;
     left: 3%;
   }
-  #main4 .container .site1 .right .de {
-    top: 20%;
-    left: 7%;
-  }
-  #main4 .container .site1 .right .go {
-    top: 45%;
-    left: 35%;
-  }
+
   #main4 .container .site2 .right h2 {
-    top: 55%;
-    left: 70%;
+    top: 40%;
+    left: 72%;
   }
-  #main4 .container .site2 .left .de {
-    left: 2%;
-    top: 25%;
-  }
-  #main4 .container .site2 .left .go {
-    left: 35%;
-    top: 45%;
-  }
+
   #main4 .container .site3 .left h2 {
     top: 30%;
     left: 14%;
   }
-  #main4 .container .site3 .right .de {
-    top: 20%;
-    left: 8%;
-  }
-  #main4 .container .site3 .right .go {
-    top: 45%;
-    left: 35%;
-  }
+
   #main4 .container .site4 .right h2 {
     top: 30%;
     left: 83%;
   }
-  #main4 .container .site4 .left .de {
-    left: 0;
-    top: 20%;
-  }
-  #main4 .container .site4 .left .go {
-    left: 35%;
-    top: 45%;
-  }
+
   #main4 .container .site5 .left h2 {
-    top: 35%;
-    left: 9%;
-  }
-  #main4 .container .site5 .right .de {
-    top: 25%;
-    left: 2%;
-  }
-  #main4 .container .site5 .right .go {
-    top: 60%;
-    left: 35%;
+    top: 30%;
+    left: 13%;
   }
 }

@@ -120,8 +120,6 @@
     <section id="main3">
       <div
         class="img"
-        data-2500="filter: blur(0)"
-        data-4000="filter: blur(5px)"
       ></div>
       <div class="sl">
         <div class="container">
@@ -144,27 +142,28 @@
           <div class="left">
             <h2>Webstandard</h2>
             <div class="img"></div>
+           
           </div>
           <div class="right">
             <p class="de">
               웹 접근성과 웹 표준을 준수하여 만든 사이트 입니다.<br />
               다양한 기능들을 웹 표준에 맞게 제작하였습니다.
             </p>
-            <div class="go">
-              <a href="#">Site</a>
-              <a href="#">Code</a>
+            <div class="btn">
+              <button class="site_btn">site</button>
+              <button class="view_btn">view</button>
             </div>
           </div>
         </div>
         <div class="site2">
           <div class="left">
             <p class="de">
-              미디어 쿼리를 사용하여 디바이스 환경에 맞춰 <br />모든 기기에
-              유연하게 대응하는 반응형 사이트 입니다.
+              <span>디어 쿼리를 사용하여 디바이스 환경에 맞춰 <br />모든 기기에
+              유연하게 대응하는 반응형 사이트 입니다.</span>
             </p>
-            <div class="go">
-              <a href="#">Site</a>
-              <a href="#">Code</a>
+            <div class="btn">
+              <button class="site_btn">site</button>
+              <button class="view_btn">view</button>
             </div>
           </div>
           <div class="right">
@@ -182,21 +181,21 @@
               SQL 연동으로 Data Base에 회원 정보와 
               <br>게시물 저장하여 관리가 용이한 php 사이트입니다.</p>
             </p>
-            <div class="go">
-              <a href="#">Site</a>
-              <a href="#">Code</a>
+            <div class="btn">
+              <button class="site_btn">site</button>
+              <button class="view_btn">view</button>
             </div>
           </div>
         </div>
         <div class="site4">
           <div class="left">
             <p class="de">
-              컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>Youtube, Movie, unsplash API로 데이터를 가져왔습니다.<br>
+              컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>API로 데이터를 가져왔습니다.<br>
               React 라이브러리로 작업한 사이트입니다.
             </p>
-            <div class="go">
-              <a href="#">Site</a>
-              <a href="#">Code</a>
+            <div class="btn">
+              <button class="site_btn">site</button>
+              <button class="view_btn">view</button>
             </div>
           </div>
           <div class="right">
@@ -211,18 +210,35 @@
           </div>
           <div class="right">
             <p class="de">
-              컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>Youtube, Movie, unsplash API로 데이터를 가져왔습니다.<br>
+              컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>API로 데이터를 가져왔습니다.<br>
               VUE 라이브러리로 작업한 사이트입니다.</p>
             </p>
-            <div class="go">
-              <a href="#">Site</a>
-              <a href="#">Code</a>
-            </div>
+          <div class="btn">
+            <button class="site_btn">site</button>
+            <button class="view_btn">view</button>
+          </div>
           </div>
         </div>
       </div>
     </section>
     <!--main4-->
+    <section id="main5">
+      <div class="img"></div>
+      <div class="sl">
+        <div class="container">
+          <div class="left">
+            <h1>Java Script</h1>
+            <div class="logo"></div>
+          </div>
+          <div class="right">
+           <p class="de"> Card Game <br> Typing Game <br> Music Player <br> Drawing Game</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--main5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.145.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
       var s = skrollr.init({
@@ -237,6 +253,44 @@
         requestAnimationFrame(scroll);
       }
       scroll();
+    </script>
+    <script src="/assets/js/hover-effect.umd.js"></script>
+    <script>
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('#main4 .container .site1 .left .img'),
+            intensity: 0.3,
+            image1: '/assets/img/main4_site1.jpg',
+            image2: '/assets/img/1280.png',
+            displacementImage: '/assets/img/displacement/10.jpg'
+        });
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('#main4 .container .site2 .right .img'),
+            intensity: 0.3,
+            image1: '/assets/img/main4_site2.jpg',
+            image2: '/assets/img/Responsive.png',
+            displacementImage: '/assets/img/displacement/10.jpg'
+        });
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('#main4 .container .site3 .left .img'),
+            intensity: 0.3,
+            image1: '/assets/img/main4_site3.jpg',
+            image2: '/assets/img/php.png',
+            displacementImage: '/assets/img/displacement/10.jpg'
+        });
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('#main4 .container .site4 .right .img '),
+            intensity: 0.3,
+            image1: '/assets/img/main4_site4.jpg',
+            image2: '/assets/img/react.png',
+            displacementImage: '/assets/img/displacement/10.jpg'
+        });
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('#main4 .container .site5 .left .img'),
+            intensity: 0.3,
+            image1: '/assets/img/main4_site5.jpg',
+            image2: '/assets/img/vue.png',
+            displacementImage: '/assets/img/displacement/10.jpg'
+        });
     </script>
   </body>
 </html>
